@@ -1,22 +1,22 @@
-<mxfile host="app.diagrams.net" modified="2023-07-29T09:01:07.206Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0" etag="H7OQeVEXcn1ZU6KtYv_Z" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-29T09:15:47.168Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0" etag="TJE8VSv7kNbfNt_u7NjT" version="21.6.6" type="github">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
-    <mxGraphModel dx="768" dy="383" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1311" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="fTah8kRHoHt24xOx3StS-2" value="" style="sketch=0;outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.customer_gateway;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="1">
-          <mxGeometry x="539.01" y="60" width="40" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="fTah8kRHoHt24xOx3StS-3" value="Internet" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="529.01" y="10" width="60" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="fTah8kRHoHt24xOx3StS-7" value="&lt;div&gt;Type 1 Hypervisor&lt;/div&gt;&lt;div&gt;OS: CoreOS&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;container=1;gradientColor=none;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="320" y="160" width="480" height="230" as="geometry">
+        <mxCell id="fTah8kRHoHt24xOx3StS-7" value="&lt;div&gt;Host Hypervisor&lt;br&gt;&lt;/div&gt;&lt;div&gt;OS: CoreOS 38&lt;br&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;container=1;gradientColor=none;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="320" y="160" width="480" height="290" as="geometry">
             <mxRectangle x="320" y="160" width="480" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fTah8kRHoHt24xOx3StS-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="330" y="200" width="460" height="40" as="geometry" />
+        <mxCell id="fTah8kRHoHt24xOx3StS-8" value="&lt;div&gt;KVM + QEMU + LIBVIRT&lt;/div&gt;&lt;div&gt;=&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;Complete Hypervisor Solution&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="fTah8kRHoHt24xOx3StS-7">
+          <mxGeometry x="10" y="40" width="460" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="fTah8kRHoHt24xOx3StS-11" value="&lt;div&gt;Ansible&lt;/div&gt;&lt;div&gt;=&lt;/div&gt;&lt;div&gt;Configuration Management of compute/network infrastructure&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="fTah8kRHoHt24xOx3StS-7">
+          <mxGeometry x="10" y="201" width="460" height="63.92" as="geometry" />
+        </mxCell>
+        <mxCell id="fTah8kRHoHt24xOx3StS-10" value="&lt;div&gt;Terraform&lt;/div&gt;&lt;div&gt;=&lt;/div&gt;&lt;div&gt;Virtual compute/network infrastructure life-cycle management&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="fTah8kRHoHt24xOx3StS-7">
+          <mxGeometry x="10" y="120" width="460" height="63.92" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
