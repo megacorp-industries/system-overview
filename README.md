@@ -9,6 +9,7 @@ CLI Software:
 - Neovim (Text Editor)
 - Tmux (Terminal Multiplexer)
 - Lazygit (Git Client)
+- Tfenv (Terraform Version Manager)
 
 GUI Software:
 - Thunderbird (Email Client)
